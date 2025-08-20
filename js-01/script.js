@@ -40,57 +40,57 @@
 // let yourAge='32'
 // console.log('I am '+myAge+' years old.\n'+'You are '+yourAge+' years old.')
 //!Homework Section -2
-let title='30 Days Of JavaScript.'
-console.log(title)
-console.log(title.length)
-console.log(title.toUpperCase())
-console.log(title.toLowerCase())
-console.log(title.substring(0,8))//başlangıç ve bitiş inndexi alır
-console.log(title.substr(11,10))//index ve kaç harf keseceği olmak üzere iki argüment alır
-console.log(title.slice(3,21))
-console.log(title.includes('Script'))
-console.log(title.split())
-console.log('Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'.split(' '))
-console.log(title.replace('JavaScript','Python'))
-console.log(title.charAt(15))
-console.log(title.charCodeAt('J'))
-console.log(title.indexOf('a'))
-console.log(title.lastIndexOf('a'))
-console.log('You cannot end a sentence with because because because is a conjunction'.indexOf('because'))
-console.log('You cannot end a sentence with because because because is a conjunction'.lastIndexOf('because'))
-console.log('You cannot end a sentence with because because because is a conjunction'.search('because'))
-console.log('           hello     world'.trim())
-console.log(title.startsWith(3))
-console.log(title.endsWith('.'))
-console.log(title.match(/a/g))
-let string=''
-console.log(string.concat('30 Days of').concat(' JavaScript'))
-console.log(title.repeat(2))
-let p='The quote \'\There is no exercise better for the heart than reaching down and lifting people up.\'\ by John Holmes teaches us to help one another.'
-console.log(p)
-console.log('"Love is not patronizing and charity isn\'t about pity, it is about love. Charity and love are the same -- with charity you give love, so don\'t just give money but reach out your hand instead."')
-console.log(typeof'10'==typeof 10)
-let num=Number('10');
-console.log(typeof num === 'number')
-console.log(parseFloat('9.8')==10)
-let num2=parseFloat('9.8')
-if(num2===10){
-    console.log('eşittir',num2)
-}else{
-    num2=10;
-    console.log('artık eşit',num2)
-}
+// let title='30 Days Of JavaScript.'
+// console.log(title)
+// console.log(title.length)
+// console.log(title.toUpperCase())
+// console.log(title.toLowerCase())
+// console.log(title.substring(0,8))//başlangıç ve bitiş inndexi alır
+// console.log(title.substr(11,10))//index ve kaç harf keseceği olmak üzere iki argüment alır
+// console.log(title.slice(3,21))
+// console.log(title.includes('Script'))
+// console.log(title.split())
+// console.log('Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'.split(' '))
+// console.log(title.replace('JavaScript','Python'))
+// console.log(title.charAt(15))
+// console.log(title.charCodeAt('J'))
+// console.log(title.indexOf('a'))
+// console.log(title.lastIndexOf('a'))
+// console.log('You cannot end a sentence with because because because is a conjunction'.indexOf('because'))
+// console.log('You cannot end a sentence with because because because is a conjunction'.lastIndexOf('because'))
+// console.log('You cannot end a sentence with because because because is a conjunction'.search('because'))
+// console.log('           hello     world'.trim())
+// console.log(title.startsWith(3))
+// console.log(title.endsWith('.'))
+// console.log(title.match(/a/g))
+// let string=''
+// console.log(string.concat('30 Days of').concat(' JavaScript'))
+// console.log(title.repeat(2))
+// let p='The quote \'\There is no exercise better for the heart than reaching down and lifting people up.\'\ by John Holmes teaches us to help one another.'
+// console.log(p)
+// console.log('"Love is not patronizing and charity isn\'t about pity, it is about love. Charity and love are the same -- with charity you give love, so don\'t just give money but reach out your hand instead."')
+// console.log(typeof'10'==typeof 10)
+// let num=Number('10');
+// console.log(typeof num === 'number')
+// console.log(parseFloat('9.8')==10)
+// let num2=parseFloat('9.8')
+// if(num2===10){
+//     console.log('eşittir',num2)
+// }else{
+//     num2=10;
+//     console.log('artık eşit',num2)
+// }
 
-if('python'.includes('on')&& 'jargon'.includes('on')){
-    console.log('yes');
-}else{
-    console.log('no')
-}
-console.log('I hope this course is not full of jargon'.includes('jargon'))
-let randomnum=Math.random()
-let numzerotohundred=Math.floor(randomnum*100)
-let fiftytohundred=Math.floor((randomnum*(100-50+1))+50)
-let zerototwohundred=Math.floor((randomnum*(255)+1))
+// if('python'.includes('on')&& 'jargon'.includes('on')){
+//     console.log('yes');
+// }else{
+//     console.log('no')
+// }
+// console.log('I hope this course is not full of jargon'.includes('jargon'))
+// let randomnum=Math.random()
+// let numzerotohundred=Math.floor(randomnum*100)
+// let fiftytohundred=Math.floor((randomnum*(100-50+1))+50)
+// let zerototwohundred=Math.floor((randomnum*(255)+1))
 // console.log(zerototwohundred)
 // console.log(fiftytohundred)
 // console.log(numzerotohundred)
@@ -132,19 +132,19 @@ let zerototwohundred=Math.floor((randomnum*(255)+1))
 //     }
 // }
 // console.log(`Most frequent word: "${mostWord}" (${counter} times)`);
-let newsentence='He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+// let newsentence='He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 // let words=newsentence.split(' ')
 // let num1=Number(newsentence.substring(9,13))
 // let numt=Number(newsentence.substring(42,47))
 // let num3=Number(newsentence.substring(67,73))
 // let salary=num1*12+numt+num3*12
 // console.log(`The salary is ${salary}`)
-let numbers=newsentence.match(/\d+/g).map(Number)
-console.log(numbers)
-let nums1=numbers[0]*12
-let nums2=numbers[1]
-let nums3=numbers[2]*12
-console.log(`the salar is ${nums1+nums2+nums3}`)
+// let numbers=newsentence.match(/\d+/g).map(Number)
+// console.log(numbers)
+// let nums1=numbers[0]*12
+// let nums2=numbers[1]
+// let nums3=numbers[2]*12
+// console.log(`the salar is ${nums1+nums2+nums3}`)
 
 // let text = "I love JavaScript and I love coding";
 // let result = text.match(/love/g);
