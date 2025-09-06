@@ -35,7 +35,7 @@
 // Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
 
 //T 4 > 3 
-console.log(4 === '4')
+// console.log(4 === '4')
 //T 4 >= 3 
 //F 4 < 3
 //F 4 <= 3
@@ -47,14 +47,14 @@ console.log(4 === '4')
 //T 4 == '4'
 //F 4 === '4'
 // Find the length of python and jargon and make a falsy comparison statement.
-console.log('python'.length ==('jargon'.length)+1)
+// console.log('python'.length ==('jargon'.length)+1)
 // Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
 
 // 4 > 3 && 10 < 12
 // 4 > 3 && 10 > 12
 // 4 > 3 || 10 < 12
 // 4 > 3 || 10 > 12
-console.log(!(4=='4'))
+// console.log(!(4=='4'))
 // !(4 > 3)
 // !(4 < 3)
 // !(false)
@@ -62,7 +62,7 @@ console.log(!(4=='4'))
 // !(4 > 3 && 10 > 12)
 // !(4 === '4')
 // There is no 'on' in both dragon and python
-console.log('dragon'.includes('on') && 'python'.includes('on'))
+// console.log('dragon'.includes('on') && 'python'.includes('on'))
 // Use the Date object to do the following activities
 // const now= new Date()
 // What is the year today?
@@ -181,15 +181,15 @@ console.log('dragon'.includes('on') && 'python'.includes('on'))
 // Enter number of years you live: 100
 // You lived 3153600000 seconds.
 // Create a human readable time format using the Date time object
-const now= new Date()
-let year=String(now.getFullYear()).padStart(2,0)
-let month=String(now.getMonth()+1).padStart(2,0)
-let day=String(now.getDay()).padStart(2,0)
-let hour=String(now.getHours()).padStart(2,0)
-let minute=String(now.getMinutes()).padStart(2,0)
-console.log(`${year}-${month}-${day} ${hour}:${minute}`)
-console.log(`${day}-${month}-${year} ${hour}:${minute}`)
-console.log(`${day}/${month}/${year} ${hour}:${minute}`)
+// const now= new Date()
+// let year=String(now.getFullYear()).padStart(2,0)
+// let month=String(now.getMonth()+1).padStart(2,0)
+// let day=String(now.getDay()).padStart(2,0)
+// let hour=String(now.getHours()).padStart(2,0)
+// let minute=String(now.getMinutes()).padStart(2,0)
+// console.log(`${year}-${month}-${day} ${hour}:${minute}`)
+// console.log(`${day}-${month}-${year} ${hour}:${minute}`)
+// console.log(`${day}/${month}/${year} ${hour}:${minute}`)
 // YYYY-MM-DD HH:mm
 // DD-MM-YYYY HH:mm
 // DD/MM/YYYY HH:mm
