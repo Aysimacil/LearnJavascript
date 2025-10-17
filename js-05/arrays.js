@@ -238,34 +238,34 @@ const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 // }
 
 //Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
-console.log(countriesarray.slice(0,10))
-let middle=(countriesarray.length/2).toFixed()
-console.log(countriesarray[middle])
-let arr1=[]
-let arr2=[]
-if(middle%2==0){
-  for(let i=0;i<countriesarray.length;i++){
-    if(i<=middle){
-      arr1[i]=countriesarray[i]
-    }else{
-      for(let j=middle;j<countriesarray.length;j++){
-        arr2[j-middle]=countriesarray[j]
-      }
-    }
-  }
-  console.log(arr1)
-  console.log(arr2)
-}else{
-  for(let i=0;i<countriesarray.length;i++){
-    if(i<=middle){
-      arr1[i]=countriesarray[i]
-    }else{
-        arr2[i-middle-1]=countriesarray[i]
-    }
-  }
-  console.log(arr1)
-  console.log(arr2)
-}
+// console.log(countriesarray.slice(0,10))
+// let middle=(countriesarray.length/2).toFixed()
+// console.log(countriesarray[middle])
+// let arr1=[]
+// let arr2=[]
+// if(middle%2==0){
+//   for(let i=0;i<countriesarray.length;i++){
+//     if(i<=middle){
+//       arr1[i]=countriesarray[i]
+//     }else{
+//       for(let j=middle;j<countriesarray.length;j++){
+//         arr2[j-middle]=countriesarray[j]
+//       }
+//     }
+//   }
+//   console.log(arr1)
+//   console.log(arr2)
+// }else{
+//   for(let i=0;i<countriesarray.length;i++){
+//     if(i<=middle){
+//       arr1[i]=countriesarray[i]
+//     }else{
+//         arr2[i-middle-1]=countriesarray[i]
+//     }
+//   }
+//   console.log(arr1)
+//   console.log(arr2)
+// }
 
 /*
 array i tersten yazma push pop shift unshift
